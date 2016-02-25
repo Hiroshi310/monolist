@@ -123,14 +123,14 @@
     background-color: #5cb85c;
     border-color: darken(#5cb85c, 5%);
     &:before {
-      content: "Wanted";
+      content: "Want it";
     }
   }
   .haved {
     background-color: #5cb85c;
     border-color: darken(#5cb85c, 5%);
     &:before {
-      content: "Haved";
+      content: "Have it";
     }
   }
 }
