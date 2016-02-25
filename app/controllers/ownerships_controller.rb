@@ -50,7 +50,7 @@ class OwnershipsController < ApplicationController
       current_user.unhave(@item) #current_userにhaveメソッドを実行する
     # wantしている商品
     else
-      current_user.unwnat(@item)
+      current_user.unwant(@item)
     end
     
     # TODO 紐付けの解除。 
